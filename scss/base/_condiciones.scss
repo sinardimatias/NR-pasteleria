@@ -1,0 +1,6 @@
+@each $green,
+$color in $redes {
+    .btn--#{$green} {
+        background-color: #25d366;
+    }
+}

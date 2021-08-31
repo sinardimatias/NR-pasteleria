@@ -1,0 +1,33 @@
+.container {
+
+
+    .contenido-footer {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+
+
+        .logo-redes {
+            width: 50px;
+
+            &:hover {
+                transform: scale(150%);
+
+
+            }
+
+        }
+
+
+    }
+
+
+    .copyright {
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,107 @@
+@media only screen and (max-width: 576px) {
+    header {
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: 40rem;
+    }
+
+    .container-nosotros {
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .imagen-nosotros {
+        display: none;
+    }
+
+    .container-textos-nosotros {
+        width: 100%;
+
+    }
+
+    p {
+        font-size: large;
+    }
+
+    footer {
+
+        .copyright {
+            display: flex;
+            text-align: center;
+        }
+
+
+    }
+
+}
+
+// acá es para hacer que las cards se vean de a una en mobile //
+
+@media screen and (max-width: 600px) {
+
+    .section-two {
+        .container {
+            .column {
+
+                width: 100%;
+                display: block;
+                margin-bottom: 20px;
+
+                .imagen-productos {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    header {
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: 40rem;
+
+
+        nav {
+            width: 100%;
+            border-radius: 0;
+            text-align: center;
+        }
+
+    }
+
+    .container-nosotros {
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .imagen-nosotros {
+        display: none;
+    }
+
+    .container-textos-nosotros {
+        width: 100%;
+
+    }
+
+    p {
+        font-size: large;
+    }
+
+    footer {
+
+        .copyright {
+            display: flex;
+            text-align: center;
+        }
+
+
+    }
+
+}

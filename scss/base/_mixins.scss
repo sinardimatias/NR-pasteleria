@@ -1,0 +1,15 @@
+@mixin textos ($font-size, $text-align) {
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    font-size: $font-size;
+    text-align: $text-align;
+}
+
+@mixin titulos ($margin-top, $margin-bottom) {
+
+    color: #642a73;
+    font-size: $font-titulos;
+    text-align: center;
+    margin-top: $margin-top;
+    margin-bottom: $margin-bottom;
+}

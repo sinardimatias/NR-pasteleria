@@ -1,0 +1,52 @@
+header {
+
+    width: 100%;
+    height: 50rem;
+
+    background: #654ea3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(335, 59%, 80%, 0.363), #654ea3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(335, 58%, 80%, 0.603), #654ea38f), url(/images/Pastelería-Gourmet-Presencial-3.png);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: contain;
+    background-attachment: fixed;
+    position: relative;
+
+
+    .textos-header {
+        display: flex;
+        height: 450px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+
+        h1 {
+            font-size: 4.5rem;
+            color: white;
+
+        }
+
+
+        h2 {
+            font-size: 2rem;
+            font-weight: 400;
+            color: white;
+        }
+
+        &:hover {
+            @mixin algo_para_mas_tarde {}
+
+            ;
+        }
+    }
+
+    .wave {
+
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
