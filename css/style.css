@@ -1,14 +1,10 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400&display=swap");
 header {
   width: 100%;
   height: 50rem;
   background: #654ea3;
-  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, rgba(234, 174, 199, 0.363), #654ea3);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, rgba(234, 174, 199, 0.603), #654ea38f), url(/images/Pastelería-Gourmet-Presencial-3.png);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(234, 174, 199, 0.603), #654ea38f), url(https://i.ibb.co/6sz3x15/Pasteleri-a-Gourmet-Presencial-3.png);
   background-size: contain;
   background-attachment: fixed;
   position: relative;
@@ -174,7 +170,8 @@ body {
 @media only screen and (max-width: 576px) {
   header {
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
+    background-position: center;
     height: 40rem;
   }
 
