@@ -18,10 +18,6 @@ body {
         // margin-bottom: 2.5rem;
     }
 
-    h2:hover {
-        //voy a dejar esto para cuando lo vaya a usar//
-        transition: none;
-    }
 
     .container {
 
@@ -59,7 +55,7 @@ body {
 
                 p {
                     @include textos (18px, center);
-                    font-weight: map-get($fuente, normal);
+                    text-align: justify;
                 }
 
             }
@@ -102,7 +98,7 @@ body {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
             padding: 16px;
             text-align: center;
-            background-color: hsla(282, 53%, 74%, 0.486);
+            background-color: #cb9ae07c;
             border-radius: 25px;
 
             &:hover {
@@ -110,7 +106,7 @@ body {
                 //voy a dejar esto para cuando lo vaya a usar//
                 transition: none;
                 transform: scale(125%);
-                z-index: 10000; //para que las cards queden adelante y se superpongan//
+                z-index: 1000; //para que las cards queden adelante y se superpongan//
 
             }
 
@@ -119,24 +115,13 @@ body {
 
 
         h2 {
-            @include titulos(5rem, 2rem) // color: $color-texto;
-            // font-size: $font-titulos;
-            // text-align: center;
-            // margin-bottom: 4.5rem;
-            // margin-top: 10rem;
-            // margin-bottom: 10rem;
-
-
-
-
-
+            @include titulos(5rem, 2rem)
         }
 
 
         h3 {
             margin-bottom: 2rem;
             color: $color-texto;
-            font-weight: map-get($fuente, normal);
         }
 
     }
