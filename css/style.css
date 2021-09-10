@@ -73,6 +73,7 @@ body {
   margin-bottom: 15px;
   text-align: center;
   padding: auto;
+  color: #642a73;
 }
 .section-one .container .container-nosotros .containertextos-nosotros p {
   padding: 0px 0px 30px 15px;
@@ -113,6 +114,11 @@ body {
   transform: scale(125%);
   z-index: 1000;
 }
+.section-two .container .card p {
+  text-align: center;
+  margin-top: 1rem;
+  color: #642a73;
+}
 .section-two .container h2 {
   color: #642a73;
   font-size: 50px;
@@ -121,8 +127,10 @@ body {
   margin-bottom: 2rem;
 }
 .section-two .container h3 {
+  margin-top: 0.5rem;
   margin-bottom: 2rem;
   color: #642a73;
+  text-align: center;
 }
 
 .section-three .container {
@@ -137,9 +145,17 @@ body {
   margin-bottom: 2rem;
   padding-top: 4rem;
   padding-top: 4rem;
+  padding-bottom: 2rem;
 }
 .section-three .container h2:hover {
   transition: none;
+}
+.section-three .container h3 {
+  margin-bottom: 3rem;
+  text-align: center;
+  padding: auto;
+  color: #642a73;
+  padding-bottom: 2rem;
 }
 .section-three .container .mapa-de-entrega {
   display: flex;
