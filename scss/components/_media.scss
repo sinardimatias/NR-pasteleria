@@ -7,7 +7,10 @@
 
     .container-nosotros {
 
+
         display: flex;
+        width: 100%;
+
 
     }
 
@@ -16,6 +19,7 @@
     }
 
     .container-textos-nosotros {
+
         width: 100%;
 
 
@@ -83,22 +87,23 @@
 
 
 
+
     }
 
     .imagen-nosotros {
+
         display: none;
     }
 
     .container-textos-nosotros {
+
         width: 100%;
-        text-align: center;
 
     }
 
     p {
-        font-size: large;
-        text-align: justify;
 
+        font-size: large;
     }
 
     footer {

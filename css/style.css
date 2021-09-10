@@ -62,12 +62,12 @@ body {
   flex-direction: row;
 }
 .section-one .container .container-nosotros .imagen-nosotros {
-  width: 40%;
+  width: 50%;
   border-radius: 8px;
-  margin: auto;
+  margin-right: 1rem;
 }
 .section-one .container .container-nosotros .containertextos-nosotros {
-  width: 50%;
+  width: 100%;
   align-content: space-around;
 }
 .section-one .container .container-nosotros .containertextos-nosotros h3 {
@@ -198,6 +198,7 @@ body {
 
   .container-nosotros {
     display: flex;
+    width: 100%;
   }
 
   .imagen-nosotros {
@@ -249,12 +250,10 @@ body {
 
   .container-textos-nosotros {
     width: 100%;
-    text-align: center;
   }
 
   p {
     font-size: large;
-    text-align: justify;
   }
 
   footer .copyright {
