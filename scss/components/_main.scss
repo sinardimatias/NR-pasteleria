@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+
 body {
     margin: 0;
     padding: 0;
@@ -55,8 +58,11 @@ body {
                 }
 
                 p {
-                    @include textos (18px, center);
+                    @include textos (1rem, center);
                     text-align: justify;
+                    font-family: 'Nunito', sans-serif;
+                    font-weight: bolder;
+
                 }
 
             }
@@ -97,23 +103,27 @@ body {
 
         .card {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-            padding: 16px;
+            padding: 1rem;
             text-align: center;
-            background-color: #cb9ae07c;
+            background-color: rgba(203, 154, 224, 0.486);
             border-radius: 25px;
 
             &:hover {
 
                 //voy a dejar esto para cuando lo vaya a usar//
+
                 transition: none;
                 transform: scale(125%);
                 z-index: 1000; //para que las cards queden adelante y se superpongan//
+                background-color: rgba(203, 154, 224, 0.486) solid;
+                ;
 
             }
 
             p {
                 text-align: center;
                 margin-top: 1rem;
+                margin-bottom: 1rem;
                 color: $color-texto
             }
 
@@ -173,6 +183,7 @@ body {
             padding: auto;
             color: $color-texto;
             padding-bottom: 2rem;
+            font-family: 'Nunito', sans-serif;
         }
 
         .mapa-de-entrega {
