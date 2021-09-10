@@ -95,7 +95,9 @@ body {
 .section-two .container .column {
   float: left;
   width: 25%;
-  padding: 0 10px;
+  padding: 10px, 10px;
+  margin-bottom: 2rem;
+  margin-top: 5rem;
 }
 .section-two .container .row {
   margin: 0 -5px;
@@ -110,12 +112,12 @@ body {
   padding: 1rem;
   text-align: center;
   background-color: rgba(203, 154, 224, 0.486);
-  border-radius: 25px;
+  border-radius: 1.5625rem;
 }
 .section-two .container .card:hover {
   transition: none;
   transform: scale(125%);
-  z-index: 1000;
+  z-index: 100;
   background-color: rgba(203, 154, 224, 0.486) solid;
 }
 .section-two .container .card p {

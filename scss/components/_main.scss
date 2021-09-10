@@ -87,7 +87,10 @@ body {
         .column {
             float: left;
             width: 25%;
-            padding: 0 10px;
+            padding: 10px, 10px;
+            margin-bottom: 2rem;
+            margin-top: 5rem;
+
         }
 
         .row {
@@ -106,7 +109,7 @@ body {
             padding: 1rem;
             text-align: center;
             background-color: rgba(203, 154, 224, 0.486);
-            border-radius: 25px;
+            border-radius: 1.5625rem;
 
             &:hover {
 
@@ -114,7 +117,7 @@ body {
 
                 transition: none;
                 transform: scale(125%);
-                z-index: 1000; //para que las cards queden adelante y se superpongan//
+                z-index: 100; //para que las cards queden adelante y se superpongan//
                 background-color: rgba(203, 154, 224, 0.486) solid;
                 ;
 
