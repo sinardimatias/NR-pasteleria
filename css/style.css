@@ -207,6 +207,7 @@ body {
 
   .container-textos-nosotros {
     width: 100%;
+    padding: 0, 0, 0, 0;
   }
 
   p {
@@ -255,7 +256,18 @@ body {
   p {
     font-size: large;
   }
-
+}
+@media only screen and (max-width: 768px) and (max-width: 768px) {
+  .section-two .container .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .section-two .container .column .imagen-productos {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
   footer .copyright {
     display: flex;
     text-align: center;
